@@ -108,12 +108,7 @@ header li{
 #servicos p{
     font-weight: 500;
 }
-/*RODAPÉ*/
-footer{
-    background: black;
-    padding: 50px 0px 20px 0px;    
-    position: relative;
-}
+
 #facil{
     padding: 20px 0;
 }
@@ -131,6 +126,14 @@ footer{
     color: white;
     font-weight: 600;
 }
+/*RODAPÉ*/
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;    
+    position: relative;
+}
+
+
 .girar{
     transform: rotate(30deg);
     padding-left: 80px;
@@ -176,11 +179,17 @@ footer li{
     }
     footer ul img{
         width: 30px;
-        margin: 5px;
+        margin-bottom: 10px;
     }
     footer ul img:hover{
         width: 32px;
-        margin: 3px;
+        margin-bottom: 8px;
+    }
+    footer .row{
+    padding: 0;
+    }
+    footer #redes li{
+    margin: 0 50px;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -200,6 +209,17 @@ footer li{
     .girar{
     display: none;
     }
+    footer ul img{
+        width: 30px;
+        margin: 5px;
+    }
+    footer ul img:hover{
+        width: 32px;
+        margin-bottom: 3px;
+    }
+    footer li img{
+    margin-left:50px;
+    }
 }
 @media (min-width: 768px ) and (max-width: 992px){
     h1{
@@ -210,6 +230,21 @@ footer li{
     }
     .girar{
     display: none;
+    }
+    footer ul img{
+        width: 40px;
+        margin: 5px;
+    }
+    footer ul img:hover{
+        width: 45px;
+        margin-right: 0px;
+    }
+    footer #redes li{
+        margin: 2px;
+    }
+    footer #redes{
+        margin: 0;
+        padding: 0;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
